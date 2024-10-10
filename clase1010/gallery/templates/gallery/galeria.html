@@ -12,7 +12,9 @@
         <p>Título: {{galeria.title}}</p>
         <p>Descripción: {{galeria.description}} </p>
         <p>{{ galeria.created}}</p>
-  <hr>
+        <br>
+        <img src="{{galeria.image.url }}" alt="" height="300px" width="250px">
+        <hr>
   {% endfor %}
 </body>
 </html>
